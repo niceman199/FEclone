@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>Instantiable/Entity/Unit/Character/Character.h</itemPath>
+      <itemPath>Instantiable/Entity/Entity.h</itemPath>
+      <itemPath>Global/GlobalDefinitions.h</itemPath>
+      <itemPath>Instantiable/Instantiable.h</itemPath>
+      <itemPath>Instantiable/Map/Map.h</itemPath>
+      <itemPath>Type/Matrix.h</itemPath>
+      <itemPath>Instantiable/Entity/Unit/Monster/Monster.h</itemPath>
+      <itemPath>Instantiable/Entity/Unit/Character/PlayableCharacter/PlayableCharacter.h</itemPath>
+      <itemPath>Type/StatSheet.h</itemPath>
+      <itemPath>Enums/StatSourceEnum.hpp</itemPath>
+      <itemPath>Instantiable/Entity/Structure/Structure.h</itemPath>
+      <itemPath>Instantiable/Map/Tile.h</itemPath>
+      <itemPath>Enums/TileTypeEnum.hpp</itemPath>
+      <itemPath>Instantiable/Entity/Unit/Unit.h</itemPath>
+      <itemPath>Enums/newClass.hpp</itemPath>
+      <itemPath>welcome.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>Instantiable/Entity/Unit/Character/Character.cpp</itemPath>
+      <itemPath>Instantiable/Entity/Entity.cpp</itemPath>
+      <itemPath>Instantiable/Instantiable.cpp</itemPath>
+      <itemPath>Instantiable/Map/Map.cpp</itemPath>
+      <itemPath>Type/Matrix.cpp</itemPath>
+      <itemPath>Instantiable/Entity/Unit/Monster/Monster.cpp</itemPath>
+      <itemPath>Instantiable/Entity/Unit/Character/PlayableCharacter/PlayableCharacter.cpp</itemPath>
+      <itemPath>Type/StatSheet.cpp</itemPath>
+      <itemPath>Instantiable/Entity/Structure/Structure.cpp</itemPath>
+      <itemPath>Instantiable/Map/Tile.cpp</itemPath>
+      <itemPath>Instantiable/Entity/Unit/Unit.cpp</itemPath>
+      <itemPath>Enums/newClass.cpp</itemPath>
+      <itemPath>welcome.cc</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="Enums/StatSourceEnum.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Enums/TileTypeEnum.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Enums/newClass.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Enums/newClass.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Global/GlobalDefinitions.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Instantiable/Entity/Entity.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Instantiable/Entity/Entity.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Instantiable/Entity/Structure/Structure.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Instantiable/Entity/Structure/Structure.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Instantiable/Entity/Unit/Character/Character.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Instantiable/Entity/Unit/Character/Character.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Instantiable/Entity/Unit/Character/PlayableCharacter/PlayableCharacter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Instantiable/Entity/Unit/Character/PlayableCharacter/PlayableCharacter.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Instantiable/Entity/Unit/Monster/Monster.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Instantiable/Entity/Unit/Monster/Monster.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Instantiable/Entity/Unit/Unit.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Instantiable/Entity/Unit/Unit.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Instantiable/Instantiable.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Instantiable/Instantiable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Instantiable/Map/Map.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Instantiable/Map/Map.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Instantiable/Map/Tile.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Instantiable/Map/Tile.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Type/Matrix.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Type/Matrix.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Type/StatSheet.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Type/StatSheet.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="welcome.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="welcome.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Enums/StatSourceEnum.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Enums/TileTypeEnum.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Enums/newClass.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Enums/newClass.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Global/GlobalDefinitions.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Instantiable/Entity/Entity.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Instantiable/Entity/Entity.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Instantiable/Entity/Structure/Structure.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Instantiable/Entity/Structure/Structure.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Instantiable/Entity/Unit/Character/Character.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Instantiable/Entity/Unit/Character/Character.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Instantiable/Entity/Unit/Character/PlayableCharacter/PlayableCharacter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Instantiable/Entity/Unit/Character/PlayableCharacter/PlayableCharacter.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Instantiable/Entity/Unit/Monster/Monster.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Instantiable/Entity/Unit/Monster/Monster.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Instantiable/Entity/Unit/Unit.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Instantiable/Entity/Unit/Unit.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Instantiable/Instantiable.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Instantiable/Instantiable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Instantiable/Map/Map.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Instantiable/Map/Map.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Instantiable/Map/Tile.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Instantiable/Map/Tile.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Type/Matrix.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Type/Matrix.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Type/StatSheet.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Type/StatSheet.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="welcome.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="welcome.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
