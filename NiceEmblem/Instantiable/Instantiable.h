@@ -14,18 +14,14 @@
 #ifndef INSTANTIABLE_H
 #define INSTANTIABLE_H
 
-class Instantiable {
+class Instantiable{
 public:
-    Instantiable(std::string id);
+    Instantiable(char * id);
     virtual ~Instantiable();
-    
-    std::string getId();
-    
+    char * getId();    
 private:
+    char * id;      
 
-    std::string id;
-    
 };
 
 #endif /* INSTANTIABLE_H */
-

@@ -14,9 +14,11 @@
 #ifndef ENTITY_H
 #define ENTITY_H
 
-class Entity : public Instantiable{
+#include "../Instantiable.h"
+
+class Entity : public Instantiable {
 public:
-    Entity(std::string id);
+    Entity(char * id);
     virtual ~Entity();
 private:
 

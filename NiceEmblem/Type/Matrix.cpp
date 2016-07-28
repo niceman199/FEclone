@@ -13,7 +13,7 @@
 
 #include "Matrix.h"
 
-Matrix::Matrix(unsigned int rows, unsigned int columns, T* data) {
+Matrix::Matrix<T>(unsigned int rows, unsigned int columns, T* data) {
     
     T[][] matrix = new T[rows][columns];
     
@@ -26,7 +26,6 @@ Matrix::Matrix(unsigned int rows, unsigned int columns, T* data) {
         j = 0;
         ++i;
     }
-
     this->matrix = matrix;
 }
 

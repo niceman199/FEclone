@@ -18,21 +18,21 @@
 
 class StatSheet {
 public:
+    StatSheet();
     StatSheet(Value * stats);
     Value * getStats();
     
     virtual ~StatSheet();
 private:
     
-    Value HP = 0;
-    Value Str = 0;
-    Value Skill = 0;
-    Value Spd = 0;
-    Value Luck = 0;
-    Value Def = 0;
-    Value Res = 0;
-    Value Con = 0;    
-    
+    Value HP;
+    Value Str;
+    Value Skill;
+    Value Spd;
+    Value Luck;
+    Value Def;
+    Value Res;
+    Value Con;    
 };
 
 #endif /* STATSHEET_H */

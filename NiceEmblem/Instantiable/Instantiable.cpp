@@ -13,13 +13,13 @@
 
 #include "Instantiable.h"
 
-Instantiable::Instantiable(std::string id) {
+Instantiable::Instantiable(char * id) {
     this->id = id;
 }
 
 Instantiable::~Instantiable() {
 }
 
-std::string Instantiable::getId() {
+char * Instantiable::getId() {
     return this->id;
 }

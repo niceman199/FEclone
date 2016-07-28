@@ -14,9 +14,11 @@
 #ifndef CHARACTER_H
 #define CHARACTER_H
 
+#include "../Unit.h"
+
 class Character : public Unit{
 public:
-    Character(std::string id);
+    Character(char * id);
     virtual ~Character();
 private:
 

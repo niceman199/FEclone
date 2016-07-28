@@ -13,6 +13,18 @@
 
 #include "StatSheet.h"
 
+StatSheet::StatSheet(){
+    this->HP = 0;
+    this->Str = 0;
+    this->Skill = 0;
+    this->Spd = 0;
+    this->Luck = 0;
+    this->Def = 0;
+    this->Res = 0;
+    this->Con = 0;
+
+}
+
 StatSheet::StatSheet(Value * stats) {
 
     this->HP = stats[__HP];

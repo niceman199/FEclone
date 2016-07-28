@@ -14,9 +14,11 @@
 #ifndef PLAYABLECHARACTER_H
 #define PLAYABLECHARACTER_H
 
-class PlayableCharacter {
+#include "../Character.h"
+
+class PlayableCharacter : public Character {
 public:
-    PlayableCharacter(std::string id);
+    PlayableCharacter(char * id);
     virtual ~PlayableCharacter();
 private:
     

@@ -14,9 +14,11 @@
 #ifndef MONSTER_H
 #define MONSTER_H
 
+#include "../Unit.h"
+
 class Monster : public Unit{
 public:
-    Monster(std::string id);
+    Monster(char * id);
     virtual ~Monster();
 private:
 

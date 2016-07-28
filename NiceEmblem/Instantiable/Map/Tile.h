@@ -14,6 +14,8 @@
 #ifndef TILE_H
 #define TILE_H
 
+#include "../../Enums/TileTypeEnum.hpp"
+#include "../Entity/Entity.h"
 class Tile {
 public:
     Tile(TileTypeEnum type);

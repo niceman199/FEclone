@@ -15,14 +15,16 @@
 #define UNIT_H
 
 #include "../../../Global/GlobalDefinitions.h"
+#include "../../../Type/StatSheet.h"
+#include "../Entity.h"
+
 
 class Unit : public Entity {
 public:
-    Unit(std::string id);
+    Unit(char * id);
     virtual ~Unit();
 private:
 
-    
     StatSheet statSheet;
     Value * stats;
     

@@ -13,7 +13,7 @@
 
 #include "PlayableCharacter.h"
 
-PlayableCharacter::PlayableCharacter(std::string id) : Character(id){
+PlayableCharacter::PlayableCharacter(char * id) : Character(id){
 }
 
 PlayableCharacter::~PlayableCharacter() {

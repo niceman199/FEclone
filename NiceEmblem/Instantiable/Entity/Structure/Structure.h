@@ -14,9 +14,11 @@
 #ifndef STRUCTURE_H
 #define STRUCTURE_H
 
-class Structure {
+#include "../Entity.h"
+
+class Structure : public Entity{
 public:
-    Structure(std::string id);
+    Structure(char * id);
     virtual ~Structure();
 private:
 

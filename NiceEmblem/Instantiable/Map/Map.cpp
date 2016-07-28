@@ -13,8 +13,10 @@
 
 #include "Map.h"
 
-Map::Map(std::string id) : Instantiable(id){
-  
+Map::Map(char * id) : Instantiable(id){
+    unsigned int x = 0;
+    int y[1];
+    this->tiles = new Matrix<int>(x,x,y);
 }
 
 Map::~Map() {

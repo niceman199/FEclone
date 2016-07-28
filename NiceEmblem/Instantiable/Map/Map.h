@@ -15,16 +15,16 @@
 #define MAP_H
 
 #include "Tile.h"
+#include "../../Type/Matrix.h"
 
-
-class Map {
+class Map : public Instantiable{
 public:
-    Map(std::string id);
+    Map(char * id);
     virtual ~Map();
 private:
     
-    Matrix<Tile> tiles;
-    
+    //Matrix<Tile> * tiles;
+    Matrix<int> * tiles;
 };
 
 #endif /* MAP_H */

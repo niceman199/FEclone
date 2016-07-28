@@ -5,17 +5,22 @@
  */
 
 /* 
- * File:   Monster.cpp
+ * File:   Main.cpp
  * Author: hendrix
- * 
- * Created on July 27, 2016, 9:44 PM
+ *
+ * Created on July 27, 2016, 11:06 PM
  */
 
-#include "Monster.h"
+#include <cstdlib>
 
-Monster::Monster(char * id) : Unit(id){
-}
+using namespace std;
 
-Monster::~Monster() {
+/*
+ * 
+ */
+int main(int argc, char** argv) {
+    
+    cout << "Hello";
+    return 0;
 }
 

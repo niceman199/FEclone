@@ -35,7 +35,6 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/Enums/newClass.o \
 	${OBJECTDIR}/Instantiable/Entity/Entity.o \
 	${OBJECTDIR}/Instantiable/Entity/Structure/Structure.o \
 	${OBJECTDIR}/Instantiable/Entity/Unit/Character/Character.o \
@@ -45,9 +44,9 @@ OBJECTFILES= \
 	${OBJECTDIR}/Instantiable/Instantiable.o \
 	${OBJECTDIR}/Instantiable/Map/Map.o \
 	${OBJECTDIR}/Instantiable/Map/Tile.o \
+	${OBJECTDIR}/Main/Main.o \
 	${OBJECTDIR}/Type/Matrix.o \
-	${OBJECTDIR}/Type/StatSheet.o \
-	${OBJECTDIR}/welcome.o
+	${OBJECTDIR}/Type/StatSheet.o
 
 
 # C Compiler Flags
@@ -73,11 +72,6 @@ LDLIBSOPTIONS=
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/niceemblem: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/niceemblem ${OBJECTFILES} ${LDLIBSOPTIONS}
-
-${OBJECTDIR}/Enums/newClass.o: Enums/newClass.cpp 
-	${MKDIR} -p ${OBJECTDIR}/Enums
-	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Enums/newClass.o Enums/newClass.cpp
 
 ${OBJECTDIR}/Instantiable/Entity/Entity.o: Instantiable/Entity/Entity.cpp 
 	${MKDIR} -p ${OBJECTDIR}/Instantiable/Entity
@@ -124,6 +118,11 @@ ${OBJECTDIR}/Instantiable/Map/Tile.o: Instantiable/Map/Tile.cpp
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Instantiable/Map/Tile.o Instantiable/Map/Tile.cpp
 
+${OBJECTDIR}/Main/Main.o: Main/Main.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Main
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Main/Main.o Main/Main.cpp
+
 ${OBJECTDIR}/Type/Matrix.o: Type/Matrix.cpp 
 	${MKDIR} -p ${OBJECTDIR}/Type
 	${RM} "$@.d"
@@ -133,11 +132,6 @@ ${OBJECTDIR}/Type/StatSheet.o: Type/StatSheet.cpp
 	${MKDIR} -p ${OBJECTDIR}/Type
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Type/StatSheet.o Type/StatSheet.cpp
-
-${OBJECTDIR}/welcome.o: welcome.cc 
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/welcome.o welcome.cc
 
 # Subprojects
 .build-subprojects:

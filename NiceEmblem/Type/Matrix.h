@@ -17,7 +17,7 @@
 template <class T> class Matrix {
 public:
     
-    Matrix(unsigned int rows, unsigned int columns, T* data);
+    Matrix<T>(unsigned int rows, unsigned int columns, T* data);
     virtual ~Matrix();
     
     unsigned int getRows();
