@@ -9,7 +9,7 @@
       <itemPath>Global/GlobalDefinitions.h</itemPath>
       <itemPath>Instantiable/Instantiable.h</itemPath>
       <itemPath>Instantiable/Map/Map.h</itemPath>
-      <itemPath>Type/Matrix.h</itemPath>
+      <itemPath>Type/Matrix.hpp</itemPath>
       <itemPath>Instantiable/Entity/Unit/Monster/Monster.h</itemPath>
       <itemPath>Instantiable/Entity/Unit/Character/PlayableCharacter/PlayableCharacter.h</itemPath>
       <itemPath>Type/StatSheet.h</itemPath>
@@ -31,7 +31,7 @@
       <itemPath>Instantiable/Instantiable.cpp</itemPath>
       <itemPath>Main/Main.cpp</itemPath>
       <itemPath>Instantiable/Map/Map.cpp</itemPath>
-      <itemPath>Type/Matrix.cpp</itemPath>
+      <itemPath>Type/Matrix.hpp</itemPath>
       <itemPath>Instantiable/Entity/Unit/Monster/Monster.cpp</itemPath>
       <itemPath>Instantiable/Entity/Unit/Character/PlayableCharacter/PlayableCharacter.cpp</itemPath>
       <itemPath>Type/StatSheet.cpp</itemPath>
@@ -54,6 +54,9 @@
         <rebuildPropChanged>false</rebuildPropChanged>
       </toolsSet>
       <compileType>
+        <ccTool>
+          <standard>8</standard>
+        </ccTool>
       </compileType>
       <item path="Enums/StatSourceEnum.hpp" ex="false" tool="3" flavor2="0">
       </item>
@@ -123,9 +126,7 @@
       </item>
       <item path="Main/Main.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="Type/Matrix.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="Type/Matrix.h" ex="false" tool="3" flavor2="0">
+      <item path="Type/Matrix.hpp" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Type/StatSheet.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -220,9 +221,7 @@
       </item>
       <item path="Main/Main.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="Type/Matrix.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="Type/Matrix.h" ex="false" tool="3" flavor2="0">
+      <item path="Type/Matrix.hpp" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Type/StatSheet.cpp" ex="false" tool="1" flavor2="0">
       </item>

@@ -13,7 +13,7 @@
 
 #include "Structure.h"
 
-Structure::Structure(std::string id) : Entity(id){
+Structure::Structure(char * id) : Entity(id){
 }
 
 Structure::~Structure() {

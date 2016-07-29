@@ -14,10 +14,14 @@
 #ifndef TILE_H
 #define TILE_H
 
+#include <iostream>
+
 #include "../../Enums/TileTypeEnum.hpp"
 #include "../Entity/Entity.h"
+
 class Tile {
 public:
+    Tile();
     Tile(TileTypeEnum type);
     
     TileTypeEnum getType();
@@ -26,8 +30,9 @@ public:
     virtual ~Tile();
 private:
 
+    friend std::ostream& operator<<(std::ostream&, const Tile&);
     TileTypeEnum type;
-    Entity occupant;
+    Entity * occupant;
 };
 
 #endif /* TILE_H */

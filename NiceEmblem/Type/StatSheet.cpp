@@ -40,7 +40,7 @@ StatSheet::StatSheet(Value * stats) {
 
 Value * StatSheet::getStats() {
     
-    Value stats[__StatCount];
+    Value * stats = new Value[__StatCount];
     
     stats[__HP] = this->HP;
     stats[__Str] = this->Str;

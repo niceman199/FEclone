@@ -13,7 +13,7 @@
 
 #include "Unit.h"
 
-Unit::Unit(char * id) : Entity(id){
+Unit::Unit(IDType id) : Entity(id){
 }
 
 Unit::~Unit() {

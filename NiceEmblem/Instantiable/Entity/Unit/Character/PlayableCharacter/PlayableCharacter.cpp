@@ -13,7 +13,7 @@
 
 #include "PlayableCharacter.h"
 
-PlayableCharacter::PlayableCharacter(char * id) : Character(id){
+PlayableCharacter::PlayableCharacter(IDType id) : Character(id){
 }
 
 PlayableCharacter::~PlayableCharacter() {

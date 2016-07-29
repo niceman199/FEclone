@@ -13,8 +13,14 @@
 
 #include "Tile.h"
 
+Tile::Tile(){
+    this->type = TileTypeEnum::None;
+    this->occupant = 0;
+}
+
 Tile::Tile(TileTypeEnum type) {
     this->type = type;
+    this->occupant = 0;
 }
 
 TileTypeEnum Tile::getType() {
@@ -22,10 +28,15 @@ TileTypeEnum Tile::getType() {
 }
 
 Entity Tile::getOccupant() {
-    return this->occupant;
+    return *this->occupant;
 }
 
 
 Tile::~Tile() {
 }
 
+std::ostream& operator<<(std::ostream &strm, const Tile &tile) {
+  //return strm << "Tile:" << tile.getType();
+    return strm << "This is a tile";
+    
+}

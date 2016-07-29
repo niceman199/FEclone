@@ -18,7 +18,7 @@
 
 class PlayableCharacter : public Character {
 public:
-    PlayableCharacter(char * id);
+    PlayableCharacter(IDType id);
     virtual ~PlayableCharacter();
 private:
     

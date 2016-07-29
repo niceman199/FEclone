@@ -18,7 +18,7 @@
 
 class Character : public Unit{
 public:
-    Character(char * id);
+    Character(IDType id);
     virtual ~Character();
 private:
 

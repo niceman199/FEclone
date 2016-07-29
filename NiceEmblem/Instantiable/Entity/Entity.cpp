@@ -13,7 +13,7 @@
 
 #include "Entity.h"
 
-Entity::Entity(char * id) : Instantiable(id) {
+Entity::Entity(IDType id) : Instantiable(id) {
 }
 
 Entity::~Entity() {

@@ -18,7 +18,7 @@
 
 class Monster : public Unit{
 public:
-    Monster(char * id);
+    Monster(IDType id);
     virtual ~Monster();
 private:
 

@@ -14,14 +14,16 @@
 #ifndef INSTANTIABLE_H
 #define INSTANTIABLE_H
 
+#include "../Global/GlobalDefinitions.h"
+#include <string>
+
 class Instantiable{
 public:
-    Instantiable(char * id);
+    Instantiable(IDType id);
     virtual ~Instantiable();
-    char * getId();    
-private:
-    char * id;      
-
+    IDType getId();
+private:    
+    IDType id;
 };
 
 #endif /* INSTANTIABLE_H */

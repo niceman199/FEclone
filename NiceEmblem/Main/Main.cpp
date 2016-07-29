@@ -12,15 +12,26 @@
  */
 
 #include <cstdlib>
+#include <iostream>
+
+#include "../Type/Matrix.hpp"
 
 using namespace std;
-
 /*
  * 
  */
 int main(int argc, char** argv) {
     
-    cout << "Hello";
+    cout << "Starting\n";
+    
+    char * b = new char[4];
+    b[0] = 1; 
+    b[1] = 2;
+    b[2] = 3;
+    b[3] = 4;
+    Matrix<char> * a = new Matrix<char>(1,1,b);
+    delete a;
+    cout << "Beautiful friend the end\n";
     return 0;
 }
 

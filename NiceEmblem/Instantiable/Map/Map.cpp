@@ -13,10 +13,9 @@
 
 #include "Map.h"
 
-Map::Map(char * id) : Instantiable(id){
+Map::Map(IDType id) : Instantiable(id){
     unsigned int x = 0;
-    int y[1];
-    this->tiles = new Matrix<int>(x,x,y);
+    this->tiles = new Matrix<Tile>(0,0);
 }
 
 Map::~Map() {

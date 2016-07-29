@@ -13,7 +13,7 @@
 
 #include "Monster.h"
 
-Monster::Monster(char * id) : Unit(id){
+Monster::Monster(IDType id) : Unit(id){
 }
 
 Monster::~Monster() {

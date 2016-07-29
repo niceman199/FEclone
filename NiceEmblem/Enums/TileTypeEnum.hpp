@@ -22,7 +22,7 @@ enum class TileTypeEnum{
     Water, 
     Road
 
-}
+};
 
 #endif /* TILETYPEENUM_HPP */
 

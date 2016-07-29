@@ -45,7 +45,6 @@ OBJECTFILES= \
 	${OBJECTDIR}/Instantiable/Map/Map.o \
 	${OBJECTDIR}/Instantiable/Map/Tile.o \
 	${OBJECTDIR}/Main/Main.o \
-	${OBJECTDIR}/Type/Matrix.o \
 	${OBJECTDIR}/Type/StatSheet.o
 
 
@@ -122,11 +121,6 @@ ${OBJECTDIR}/Main/Main.o: Main/Main.cpp
 	${MKDIR} -p ${OBJECTDIR}/Main
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Main/Main.o Main/Main.cpp
-
-${OBJECTDIR}/Type/Matrix.o: Type/Matrix.cpp 
-	${MKDIR} -p ${OBJECTDIR}/Type
-	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Type/Matrix.o Type/Matrix.cpp
 
 ${OBJECTDIR}/Type/StatSheet.o: Type/StatSheet.cpp 
 	${MKDIR} -p ${OBJECTDIR}/Type

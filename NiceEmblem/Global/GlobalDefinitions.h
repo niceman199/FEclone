@@ -28,6 +28,7 @@
 #define Value unsigned char /*unsigned char goes from 0 to 256. Since stat values 
 on FE are way below that, that will be enough to store stats : ^ )*/
 
+#define IDType std::string /*If tomorrow we want this to be something else*/
 
 #endif /* GLOBALDEFINITIONS_H */
 

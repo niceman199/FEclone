@@ -18,7 +18,7 @@
 
 class Entity : public Instantiable {
 public:
-    Entity(char * id);
+    Entity(IDType id);
     virtual ~Entity();
 private:
 

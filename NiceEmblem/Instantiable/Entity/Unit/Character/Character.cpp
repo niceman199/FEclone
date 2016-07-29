@@ -13,7 +13,7 @@
 
 #include "Character.h"
 
-Character::Character(char * id) : Unit(id){
+Character::Character(IDType id) : Unit(id){
 }
 
 Character::~Character() {

@@ -21,7 +21,7 @@
 
 class Unit : public Entity {
 public:
-    Unit(char * id);
+    Unit(IDType id);
     virtual ~Unit();
 private:
 
