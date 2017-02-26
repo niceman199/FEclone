@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<configurationDescriptor version="97">
+<configurationDescriptor version="100">
   <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
@@ -8,6 +8,8 @@
       <itemPath>Instantiable/Entity/Entity.h</itemPath>
       <itemPath>Global/GlobalDefinitions.h</itemPath>
       <itemPath>Instantiable/Instantiable.h</itemPath>
+      <itemPath>Inventory.h</itemPath>
+      <itemPath>Item.h</itemPath>
       <itemPath>Instantiable/Map/Map.h</itemPath>
       <itemPath>Type/Matrix.hpp</itemPath>
       <itemPath>Instantiable/Entity/Unit/Monster/Monster.h</itemPath>
@@ -29,9 +31,10 @@
       <itemPath>Instantiable/Entity/Unit/Character/Character.cpp</itemPath>
       <itemPath>Instantiable/Entity/Entity.cpp</itemPath>
       <itemPath>Instantiable/Instantiable.cpp</itemPath>
+      <itemPath>Inventory.cpp</itemPath>
+      <itemPath>Item.cpp</itemPath>
       <itemPath>Main/Main.cpp</itemPath>
       <itemPath>Instantiable/Map/Map.cpp</itemPath>
-      <itemPath>Type/Matrix.hpp</itemPath>
       <itemPath>Instantiable/Entity/Unit/Monster/Monster.cpp</itemPath>
       <itemPath>Instantiable/Entity/Unit/Character/PlayableCharacter/PlayableCharacter.cpp</itemPath>
       <itemPath>Type/StatSheet.cpp</itemPath>
@@ -123,6 +126,14 @@
       <item path="Instantiable/Map/Tile.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Instantiable/Map/Tile.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Inventory.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Inventory.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Item.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Item.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Main/Main.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -218,6 +229,14 @@
       <item path="Instantiable/Map/Tile.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Instantiable/Map/Tile.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Inventory.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Inventory.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Item.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Item.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Main/Main.cpp" ex="false" tool="1" flavor2="0">
       </item>
